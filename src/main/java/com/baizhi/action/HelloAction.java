@@ -1,4 +1,4 @@
-package com.baizhi.action;
+﻿package com.baizhi.action;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,5 +16,6 @@ public class HelloAction {
         System.out.println("Hello  SpringBoot");
         return "hello  SpringBoot";
     }
+//这是我在本地做的修改
 
 }
